@@ -12,4 +12,10 @@ class UserTest < ActiveSupport::TestCase
   	usr = User.new({})
   	assert !usr.save, "Succeeded to save"
   end
+  
+   すべてのフィールドにデータがはいっていること
+  test "data aaaa" do
+  	usr = User.new({})
+  	assert !usr.save, "Succeeded to save"
+  end
 end
